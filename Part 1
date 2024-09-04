@@ -3,6 +3,26 @@ This is part 1 which includes Initial thoughts, Development Methodology and High
 
 Initial thoughts:
 
+Key Functionalities:
+Registration & Authentication: Secure web-based authentication with email verification. Minimal initial registration, with profile completion on first login.
+
+Profile Management: Volunteers can easily update location, skills, preferences, and availability.
+
+Event Management: Admins create events with details like skills, location, and urgency, displayed on volunteer dashboards based on relevance.
+
+Volunteer Matching: Server-side algorithm matches volunteers to events based on profiles and event requirements.
+
+Notification System: Web push or email notifications keep volunteers informed about assignments and reminders.
+
+Volunteer History: Admins can track and export volunteer participation via a simple table or dashboard.
+
+Technology Stack:
+Front-End: React.js for a responsive UI with Bootstrap or Material-UI for styling, or HTML/CSS with JavaScript as an alternative.
+Back-End: Either Flask (Python) or Node.js with Express.js for API handling and business logic.
+Database: PostgreSQL for relational data or MongoDB for NoSQL.
+Authentication: Firebase Authentication or JWT with Passport.js.
+APIs: Google Maps for location services, Twilio for SMS, or SendGrid for email notifications.
+
 
 Development Methodology:
 We are going to use Agile, the reason we are going with agile is since it allows you to add on new features one at a time adding to the whole 

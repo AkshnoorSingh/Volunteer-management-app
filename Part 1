@@ -1,3 +1,10 @@
+This is part 1 which includes Initial thoughts, Development Methodology and High-Level Design / Architecture 
+
+
+Initial thoughts:
+
+
+Development Methodology:
 We are going to use Agile, the reason we are going with agile is since it allows you to add on new features one at a time adding to the whole 
 project step by step. With agile we will be doing 5 steps for each part:
 
@@ -7,3 +14,5 @@ Testing: after developing create test cases and insure correct functionality of 
 Deployment: deploy parts that were developed into the full project and ensure its working properly together with the rest of the components 
 Review: to ensure everything is working properly review and retest everything after everything is integrated together 
 
+
+High-Level Design / Architecture:

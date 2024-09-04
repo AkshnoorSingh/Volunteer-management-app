@@ -2,18 +2,16 @@ This is part 1 which includes Initial thoughts, Development Methodology and High
 
 
 Initial thoughts:
+User Experience (UX):
+Volunteers: The web interface should be responsive and accessible across devices, with a simple dashboard displaying upcoming events, preferences, and availability updates.
+Administrators: An intuitive admin panel should allow quick event creation, volunteer management, and access to analytics for monitoring participation.
 
 Key Functionalities:
 Registration & Authentication: Secure web-based authentication with email verification. Minimal initial registration, with profile completion on first login.
-
 Profile Management: Volunteers can easily update location, skills, preferences, and availability.
-
 Event Management: Admins create events with details like skills, location, and urgency, displayed on volunteer dashboards based on relevance.
-
 Volunteer Matching: Server-side algorithm matches volunteers to events based on profiles and event requirements.
-
 Notification System: Web push or email notifications keep volunteers informed about assignments and reminders.
-
 Volunteer History: Admins can track and export volunteer participation via a simple table or dashboard.
 
 Technology Stack:

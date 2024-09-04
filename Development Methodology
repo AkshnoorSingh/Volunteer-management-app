@@ -1,1 +1,9 @@
+We are going to use Agile, the reason we are going with agile is since it allows you to add on new features one at a time adding to the whole 
+project step by step. With agile we will be doing 5 steps for each part:
+
+Planning: Plan what needs to be done and in which order , assign roles, and plan each detail with the team
+Development: After discussing and planning working on solving the problems and tasks discussed
+Testing: after developing create test cases and insure correct functionality of the code/design
+Deployment: deploy parts that were developed into the full project and ensure its working properly together with the rest of the components 
+Review: to ensure everything is working properly review and retest everything after everything is integrated together 
 

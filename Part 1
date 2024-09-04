@@ -34,6 +34,18 @@ Review: to ensure everything is working properly review and retest everything af
 
 
 High-Level Design / Architecture:
+Components:
+Front-End (Web): Built with React.js or html/css javascript for user interaction, including registration, profile management, and event browsing.
+Back-End Server: Node.js with Express.js to manage business logic like event creation, volunteer matching, and notifications.
+Database: PostgreSQL to store user profiles, events, and volunteer history.
+Notification Service: Sends SMS or email notifications using services like Twilio or SendGrid.
+APIs: Google Maps API for location-based volunteer matching.
 
+Component Interactions:
+User Registration/Login: React front-end handles registration and login, while the back-end manages authentication and sessions.
+Profile Management: Volunteers update profiles via the front-end; changes are sent to the back-end and stored in PostgreSQL.
+Event Management: Admins create/manage events, with updates processed by the back-end and reflected in the database.
+Volunteer Matching: The back-end periodically matches volunteers to events based on profiles and updates the database.
+Notifications: The back-end sends email/SMS notifications to volunteers about assignments, changes, or reminders.
 
 **Diagram is inside of diagram.png**
